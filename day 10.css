@@ -1,0 +1,68 @@
+
+*{margin: 0;
+   padding: 0;}
+
+.maindiv{ 
+
+background: rgb(18, 224, 163);
+padding: 10px;
+text-align: center;
+}
+.maindiv ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.maindiv ul li a{
+   text-decoration: none;
+   padding: 10px 15px;
+   border-right: 1px solid white;
+   color: aliceblue;
+  
+
+}
+.maindiv ul li:first-child a{
+
+   border-left:1px solid white;
+}        
+.maindiv ul li:hover> a{ 
+   background: rgb(21, 197, 144);
+}
+/* dropdown menu start */
+
+.maindiv ul li{
+   position: relative;
+}
+.maindiv ul li ul{
+   position: absolute;
+   top: 150%;
+   left: 0;
+   width: 184px;
+   background:rgb(18, 224, 163);
+   border-top: 1px solid #fff;
+   transition: .60s;
+}
+.maindiv ul li ul li{
+  display: block;
+   margin-left: 0;
+}
+.maindiv ul li ul li a{
+    display: block;
+border: none;
+border-bottom: 1px solid #fff;
+}
+.maindiv ul li:first-child a{
+   border-left:1px solid white;
+}  
+.maindiv ul ul li:first-child a{
+   border-left:none;
+   border-right: none;
+}        
+/* hover part */
+.maindiv ul li ul{
+opacity: 0;
+visibility: hidden;
+}
+.maindiv ul li:hover ul{
+   opacity: 1;
+   visibility: visible;
+}
