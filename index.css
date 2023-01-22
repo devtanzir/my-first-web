@@ -1,0 +1,186 @@
+body,h1,h2,h3,h4,h5,h6,p,a,span{
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+img{
+    max-width: 100%;
+}
+.min-section-bg{
+    background-color:#f7f9ff;
+    padding: 100px 0;
+}
+a{
+    text-decoration: none;
+}
+
+/* header section */
+
+
+.bg-white {
+    background-color: #fff !important;
+  }
+  .my-shadow {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05) !important;
+  }
+  
+  .header-logo {
+    width: 311px;
+  }
+  
+  .header-logo a img {
+    width: 45px;
+  }
+  .header-logo a span {
+    font-size: 25px;
+    font-weight: 500;
+    color: #000;
+    padding-top: 1px;
+    display: inline-block;
+    transition: 0.4s;
+  }
+  .header-logo a span:hover {
+    color: #726e6e79;
+  }
+  .header-menu {
+    width: 408px;
+    margin-left: 137px;
+  }
+  
+  .header-menu ul {
+    list-style: none;
+  }
+  
+  .header-menu ul li {
+    display: inline-block;
+    position: relative;
+  }
+  .header-menu ul li a {
+    display: block;
+    padding: 0px 15px;
+    line-height: 58px;
+    color: #000;
+  }
+  
+  .header-menu ul li ul {
+    position: absolute;
+  
+    padding-left: 0;
+    top: 100%;
+    left: 0;
+    width: 225px;
+    background-color: #fff;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.4s;
+  }
+  .header-menu ul li ul li {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    height: 50px;
+  }
+  .header-menu ul li:hover ul {
+    opacity: 1;
+    visibility: visible;
+  }
+  .header-menu ul li a:hover {
+    color: cornflowerblue;
+  }
+  .header-button {
+    margin-left: 371px;
+  }
+  
+  .header-btn {
+    display: inline-block;
+    border: 2px solid #6278df;
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: #6278df;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  .header-btn:hover {
+    background: #6278df;
+    color: #fff;
+    box-shadow: 4px 4px 20px 0 rgba(86, 107, 201, 0.8);
+  }
+
+/* slaider-section */
+
+.slaider-section{
+    background: url(https://mobirise.com/extensions/appamp/assets/images/background3.jpg) no-repeat center center;
+    padding: 200px 0;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.slaider-section::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+
+.slaider-caption h2 {
+    font-size: 66px;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+
+.dwnld-btn1{
+    padding: 15px 30px;
+    background-color: #6278df;
+    border: 1px solid #6278df;
+    color: #fff;
+    font-weight: 600;
+    transition: .5s;
+    box-shadow: 2.5px 4.33px 30px 0px rgba(84, 100, 242, 0.749);
+    margin-right: 20px;
+}
+.dwnld-btn1:hover{
+    background-color: #000;
+    color: #fff;
+    box-shadow:none ;
+    border: 1px solid #000;
+}
+.dwnld-btn2{
+    padding: 15px 30px;
+    background-color: #fff;
+    border: 1px solid #6278df;
+    color: #6278df;
+    font-weight: 600;
+    transition: .5s;
+    
+}
+.dwnld-btn2:hover{
+    background-color: #6278df;
+    color: #fff;
+    box-shadow: 2.5px 4.33px 30px 0px rgba(84, 100, 242, 0.749);
+    border: 1px solid #6278df;
+}
+
+
+/* video-section */
+
+
+.video-content h1 {
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: 100px;
+    margin-bottom: 40px;
+  }
+
+/* footer-section */
+
+.footer-section{
+    background-color: #f7f9ff;
+    padding: 20px 0;
+}
+.footer-section p{
+    font-size: 20px;
+}
