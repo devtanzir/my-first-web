@@ -247,3 +247,129 @@ a{
 .footer-section p{
     font-size: 20px;
 }
+
+/* responsive-css */
+
+@media (max-width: 1400px) {
+  .header-logo {
+    width: 313px;
+  }
+  .header-menu {
+    width: 370px;
+    margin-left: 100px;
+  }
+  .header-button {
+    margin-left: 268px;
+  }
+
+}
+
+
+
+
+
+@media (max-width: 1200px){
+
+
+  .header-logo {
+    width: 300px;
+  }
+  .header-logo a img {
+    width: 40px;
+  }
+  .header-logo a span {
+    font-size: 20px;
+   
+  }
+  .header-menu {
+    width: 342px;
+    margin-left: 70px;
+  }
+  .header-button {
+    margin-left: 144px;
+    width: 120px;
+  }
+  .header-btn {
+    padding: 9px 25px;
+  }
+  
+}
+
+
+
+
+
+
+@media (max-width: 992px){
+
+
+  .header-button {
+    margin-left: 84px;
+    width: 120px;
+  }
+  .header-menu ul li ul {
+    left: 133px;
+  }
+  .banner-contact h2 {
+    font-size: 39px;
+    margin: 25px 0;
+  }
+  .difault-btn {
+    padding: 12px 16px;
+    margin-left: 0px;
+    margin-right: 12px;
+    font-size: 20px;
+  }
+  .sticky-top{
+    position: relative;
+  }
+  
+}
+
+
+
+
+@media (max-width: 768px){
+ 
+}
+
+
+
+
+@media (max-width: 576px){
+  .header-menu {
+    
+    margin-left: 0;
+  }
+  .header-button {
+    margin-left: 15px;
+    
+  }
+  .difault-btn {
+    font-size: 16px;
+  }
+ 
+}
+
+
+
+
+
+
+
+@media (max-width: 380px){
+
+  .header-logo {
+    width: 205px;
+  }
+  
+  .difault-btn {
+    font-size: 14px;
+    display: block;
+    width: 128px;
+    margin: auto;
+    margin-bottom: auto;
+    margin-bottom: 10px;
+  }
+  
+}
